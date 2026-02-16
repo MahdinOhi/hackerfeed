@@ -62,6 +62,14 @@ html {
   --font-mono:        'JetBrains Mono', 'Courier New', monospace;
 }
 
+.navbar-brand-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+
 /* ── Light Theme ─────────────────────────────────── */
 [data-theme="light"] {
   --bg-primary:       #f0f3fa;
